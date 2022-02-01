@@ -6,4 +6,5 @@ jdk:
 addons:
   sonarcloud: true
 script:
+  - npm run cover
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=poveda-github-arqui -Dsonar.projectKey=lab22022-v2 -Dsonar.sources='./app' -X

@@ -4,11 +4,12 @@
   "description": "Calculadora UdeA",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbotia/lab22022.git"
+    "url": "git+https://github.com/diegopovalz/lab22022-v2.git"
   },
   "keywords": [
     "Suma",
@@ -16,17 +17,18 @@
     "Multi",
     "Division"
   ],
-  "author": "DB",
+  "author": "DP",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dbotia/lab22022/issues"
+    "url": "https://github.com/diegopovalz/lab22022-v2/issues"
   },
-  "homepage": "https://github.com/dbotia/lab22022#readme",
+  "homepage": "https://github.com/diegopovalz/lab22022-v2#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "chai": "^4.3.6",
+    "istanbul": "^1.1.0-alpha.1",
     "mocha": "^9.2.0"
   }
 }
