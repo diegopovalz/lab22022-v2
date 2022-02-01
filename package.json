@@ -1,0 +1,32 @@
+{
+  "name": "lab22022",
+  "version": "1.0.0",
+  "description": "Calculadora UdeA",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbotia/lab22022.git"
+  },
+  "keywords": [
+    "Suma",
+    "Resta",
+    "Multi",
+    "Division"
+  ],
+  "author": "DB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbotia/lab22022/issues"
+  },
+  "homepage": "https://github.com/dbotia/lab22022#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  }
+}
