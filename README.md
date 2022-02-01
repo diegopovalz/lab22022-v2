@@ -10,13 +10,14 @@
 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=lab22022&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=lab22022)
 
+[![Coverage Status](https://coveralls.io/repos/github/diegopovalz/lab22022-v2/badge.svg?branch=main)](https://coveralls.io/github/diegopovalz/lab22022-v2?branch=main)
 
 Implementation of a Simple Calculator with the next operations:
 
-* Add
-* Minus
-* Multiply
-* Divide
+- Add
+- Minus
+- Multiply
+- Divide
 
 Including integration with Travis CI, Sonarqube (SonarCloud), Coveralls and Snyk
 
@@ -33,6 +34,7 @@ Execute:
 ```shell
 $ npm init
 ```
+
 to download the node dependencies
 
 ### How to test it
