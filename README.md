@@ -12,6 +12,10 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/diegopovalz/lab22022-v2/badge.svg?branch=main)](https://coveralls.io/github/diegopovalz/lab22022-v2?branch=main)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/diegopovalz/lab22022-v2/badge.svg)]
+
+(https://snyk.io/test/github/{username}/{repo})
+
 Implementation of a Simple Calculator with the next operations:
 
 - Add
